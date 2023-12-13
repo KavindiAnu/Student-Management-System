@@ -1,0 +1,48 @@
+body{
+  color: rgb(16, 10, 10);
+  background-color: black;
+  justify-content: center;
+  align-items: center;
+  background: url(https://img.freepik.com/free-vector/gradient-glassmorphism-background_23-2149447861.jpg?w=900&t=st=1673540129~exp=1673540729~hmac=41d2d24d9936c9e6b6d74e6454e3d4df6ba68e2714214324d96a612ba559623a);
+  background-size: cover;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(17, 14, 14);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
